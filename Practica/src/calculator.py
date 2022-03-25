@@ -13,12 +13,12 @@ class Calculator:
 
     def isVocal(self, val):
         if val.isdigit():
-            return 'Es un numerous'
+            return 'numero'
         else:
             if val == 'a':
-                return 'Es una vocal'
+                return 'vocal'
             else:
-                return 'Es una consonant'
+                return 'consonante'
 
     def inversa(self, val):
         return val[::-1]
